@@ -1,0 +1,11 @@
+{
+  "name": "shop_sim_frontend",
+  "version": "0.0.1",
+  "description": "frontend for shop_sim project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
