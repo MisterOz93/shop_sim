@@ -9,22 +9,13 @@ Product.init({
         primaryKey: true,
         autoIncrement: true
     },
-    type: {
+    name: {
         type: DataTypes.STRING,
         allowNull: false
     },
     cost: {
-        type: DataTypes.DECIMAL,
-        allowNull: false
-    },
-    brand: {
         type: DataTypes.STRING,
         allowNull: false
-    },
-    brandId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: { model: 'brand', key: 'id'}
     },
     onSale: {
         type:DataTypes.BOOLEAN,
